@@ -10,6 +10,6 @@ node {
     }
     
     stage('run') {
-        sh "yarn run serve"
+        sh "yarn build"
     }
 }
