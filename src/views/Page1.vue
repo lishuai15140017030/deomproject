@@ -44,6 +44,7 @@
         class="item-chart"
       >
         <ve-bar
+          height="900px"
           :data="monthDetailData"
           :extend="chartExtend"
         ></ve-bar>
@@ -107,7 +108,7 @@ export default {
   }
 }
 .chart-box{
-  height: 800px;
+  height: 100%;
   .item-chart{
     height: 100%;
   }
